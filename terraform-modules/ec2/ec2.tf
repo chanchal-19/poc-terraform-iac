@@ -2,7 +2,7 @@ resource "aws_network_interface" "ec2" {
   subnet_id       = var.public_subnet_id
   security_groups = [aws_security_group.ec2.id]
   tags = {
-    Name        = "${var.environment}-nf"
+    Name        = "${var.environment}-n"
     environment = var.environment
   }
 }
