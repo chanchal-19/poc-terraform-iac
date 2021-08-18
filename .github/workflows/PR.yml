@@ -1,0 +1,22 @@
+name: Create pull request
+on:
+  push:
+    branches:
+      - remote
+jobs:
+  prForMasterBranch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Reset master branch
+        run: |
+          git fetch origin remote:remote
+          git reset --hard remote
+      - name: Create Pull Request
+        uses: chanchal-19/poc-terraform-iac@v2
+        with:
+          commit-message: update master branch
+          title: Update master branch
+          branch: temp
