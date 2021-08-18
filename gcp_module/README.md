@@ -1,6 +1,6 @@
 # Create a Google compute instance in GCP
 
-In this particular track, we are going to build a google compute instance using terrform.
+In this particular track, we are going to build a google compute instance (VM) using terrform.
 We will be binding an instance with a static compute address and we'll also see how we can
 attach service account/ scope on a virtual machine. We will also install a nginx server on our instance and we'll also allow traffic at Port 80 using http-server tags.
 
