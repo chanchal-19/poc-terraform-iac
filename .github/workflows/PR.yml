@@ -15,7 +15,7 @@ jobs:
           git fetch origin remote:remote
           git reset --hard remote
       - name: Create Pull Request
-        uses: chanchal-19/poc-terraform-iac@v2
+        uses: chanchal-19/poc-terraform-iac/gcp_module@v2
         with:
           commit-message: update master branch
           title: Update master branch
