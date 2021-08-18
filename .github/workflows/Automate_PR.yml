@@ -1,0 +1,22 @@
+name: testing Auto-PR
+on:
+  push:
+    branches: ['remote']
+
+jobs:
+  pull-request:
+    name: Open PR to main
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@remote
+      name: checkout
+
+    - uses: repo-sync/pull-request@remote
+      name: pull-request
+      with:
+        destination_branch: "main"
+        pr_title: "Pulling ${{ github.ref }} into main"
+        pr_body: "👑 *An automated PR*"
+        pr_reviewer: "chanchal-19"
+        pr_draft: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
