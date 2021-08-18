@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
       name: checkout
 
-    - uses: gcp_module/pull-request@v2
+    - uses:  chanchal-19/poc-terraform-iac@v2
       name: pull-request
       with:
         destination_branch: "main"
