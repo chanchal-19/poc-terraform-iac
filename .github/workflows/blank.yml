@@ -9,7 +9,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Create pull request
-        uses:  chanchal-19/poc-terraform-iac@@v0.0.4
+        uses:  chanchal-19/poc-terraform-iac@v0.0.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           title: Automatic pull request
