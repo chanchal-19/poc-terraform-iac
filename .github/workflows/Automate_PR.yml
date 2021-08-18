@@ -2,7 +2,6 @@ on:
   push:
     branches:
     - remote
-
 jobs:
   pull-request:
     runs-on: ubuntu-latest
