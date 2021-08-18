@@ -1,4 +1,4 @@
-## Create a Google compute instance in GCP
+# Create a Google compute instance in GCP
 
 In this particular track, we are going to build a google compute instance using terrform.
 We will be binding an instance with a static compute address and we'll also see how we can
