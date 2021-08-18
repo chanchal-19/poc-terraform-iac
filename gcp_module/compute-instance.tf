@@ -19,7 +19,7 @@ resource "google_compute_instance" "training_demo" {
   metadata_startup_script = "sudo apt-get update; sudo apt-get install nginx-light -y"
 
   # Allows traffic @ PORT 80. It is recommended to use custom vpc and subnets with firewalls rules
-  tags = ["http-server"]
+  tags = ["http-instance"]
 
   # Block where you can configure your vpc and subnets
   network_interface {
