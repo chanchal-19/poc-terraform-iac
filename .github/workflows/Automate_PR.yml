@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: pull-request
-      uses: repo-sync/pull-request@remote
+      uses: gcp_module/pull-request@remote
       with:
         destination_branch: "main"
         github_token: ${{ secrets.GITHUB_TOKEN }}
