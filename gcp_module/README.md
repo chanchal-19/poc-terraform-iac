@@ -34,7 +34,7 @@ cd virtual-machine
 terraform plan
 ```
 
-### Terraform apply
+### Terraform apply#########
 
 This command will create all the mentioned resources for yor
 
