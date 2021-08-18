@@ -5,7 +5,7 @@ We will be binding an instance with a static compute address and we'll also see 
 attach service account/ scope on a virtual machine. We will also install a nginx server on our instance and we'll also allow traffic at Port 80 using http-server tags.
 
 
-Add the necessary values of the variables in terraform.tfvars file
+Add the necessary values of the variables in terraform.tfvars file.
 
 ```
 gcp_project_id="<project-id>"
