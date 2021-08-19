@@ -1,9 +1,9 @@
 name: Staging Auto-PR
-on:
-  push:
-    branches: ['remote']
-    paths:
-    - '/'
+on: push
+#   push:
+#     branches: ['remote']
+#     paths:
+#     - '/'
 jobs:
   curl:
     runs-on: ubuntu-latest
