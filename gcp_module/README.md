@@ -1,4 +1,4 @@
-## Create a Google compute instance in GCP
+# Create a Google compute instance in GCP
 
 In this particular track, we are going to build a google compute instance (VM) using terrform.
 We will be binding an instance with a static compute address and we'll also see how we can
@@ -25,7 +25,7 @@ terraform init
 
 The CDN which servers the providers is quite slow that's why it can take some time for the providers to get downloaded
 
-### Terraform plan
+### Terraform plan#####
 
 This command will layout a plan for you and show you what all resources can be created
 
