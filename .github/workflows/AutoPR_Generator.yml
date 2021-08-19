@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: chanchal-19/poc-terraform-iac/gcp_module@v1
+      uses: chanchal-19/poc-terraform-iac@v1
       with:
         args: -X POST -H "Accept:\ application/vnd.github.v3+json" https://api.github.com/repos/chanchal-19/poc-terraform-iac/pulls -d '{"head":"remote","base":"main", "title":"New Pull request"}' -u "chanchal-19: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"
