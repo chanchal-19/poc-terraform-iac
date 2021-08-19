@@ -25,7 +25,7 @@ terraform init
 
 The CDN which servers the providers is quite slow that's why it can take some time for the providers to get downloaded
 
-### Terraform plan
+### Terraform plan#####
 
 This command will layout a plan for you and show you what all resources can be created
 
