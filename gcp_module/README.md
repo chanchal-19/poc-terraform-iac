@@ -2,7 +2,7 @@
 
 In this particular track, we are going to build a google compute instance (VM) using terrform.
 We will be binding an instance with a static compute address and we'll also see how we can
-attach service account/ scope on a virtual machine. We will also install a nginx server on our instance and we'll also allow traffic at Port 80 using http-server tags.
+attach service account/ scope on a virtual machine. We will also install a nginx server on our instance and we'll also allow traffic at Port 80 using http-server tags
 
 
 Add the necessary values of the variables in terraform.tfvars file.
