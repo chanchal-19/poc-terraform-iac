@@ -1,7 +1,7 @@
 name: Staging Auto-PR
 on:
   push:
-    branches: ['staging']
+    branches: ['remote']
 jobs:
   curl:
     runs-on: ubuntu-latest
