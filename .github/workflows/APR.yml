@@ -1,7 +1,7 @@
 name: Staging Auto-PR
-on: push
-#   push:
-#     branches: ['remote']
+on: 
+  push:
+    branches: ['remote']
 #     paths:
 #     - '/'
 jobs:
